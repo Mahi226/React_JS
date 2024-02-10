@@ -12,9 +12,9 @@ class Counter extends Component {
   }
 
   onIncreament = () => {
-    this.setState(prevState=>{
-      console.log(`${prevState.count-1}`)
-    return{count:prevState.count-1}
+    this.setState(prevState => {
+      console.log(`${prevState.count - 1}`)
+      return {count: prevState.count - 1}
     })
   }
 
